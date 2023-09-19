@@ -17,11 +17,35 @@ body {
 }
 
 #meter-In {
-  margin: 0 10px 20px 10px;
+  margin: 0 10px 30px 10px;
   width: 500px;
   padding: 5px;
 }
 
-#m2cm {
-  color: white;
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#m2cm, #meter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: white;
+  color: #0077B6;
+  font-weight: bolder;
+}
+
+#meter {
+  color: #03045E;
+}
+
+h1 {
+  color: #90E0EF;
+  font-size: 20pt;
 }/*# sourceMappingURL=index.css.map */
